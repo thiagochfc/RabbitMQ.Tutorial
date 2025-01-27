@@ -21,3 +21,15 @@ Many producers can send messages that go to one queue, and many consumers can tr
 A ***consumer*** is a program that mostly waits to receive messages.
 
 ## Examples
+
+
+### Hello World
+
+In this part of the tutorial we'll write two programs in C#; a producer that sends a single message, and a consumer that receives messages and prints them out.
+
+```mermaid
+
+flowchart LR
+    Producer((P)) --> Queue[hello] --> Consumer((C))
+
+```
